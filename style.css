@@ -1,0 +1,488 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    border-bottom: 2px solid rgb(80, 80, 231);
+    background: linear-gradient(rgb(50, 50, 247) , rgb(51, 51, 252));
+}
+.PicFb{
+    width: 190px;
+    height: 63px;
+    position: absolute;
+    left: 13%;
+    padding-top: 15px;
+
+}
+.Lform{
+    display: flex;
+    position: absolute;
+    left: 58%;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Lform .LEmail,
+.Lform .Password{
+    padding-left: 10px;
+}
+.Lform .LEmail .LEFont,
+.Lform .Password .LPFont{
+    font-size: 13px;
+    color: white;
+    padding-bottom: 4px;
+}
+.Lform .LEmail input,
+.Lform .Password input{
+    width: 150px;
+    height: 23px;
+    padding-left: 5px;
+    outline:none ;
+    border: 1px solid black;  
+}
+.Blogo{
+    width: 50px;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(50, 50, 255);
+    border: 1px solid rgb(108, 108, 218) ;
+
+
+}
+.Blogo:hover{
+    background-color: rgb(107, 107, 236) ;
+}
+
+section{
+    width: 100%;
+    height: 614px;
+    top: 80px;
+    background: linear-gradient(rgb(170, 170, 247) , rgb(254, 254, 255));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* from */
+
+.direction{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.late-plate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .text h1{
+    color: #0a0a0a;
+    gap: 20px;
+    font-size: 4ch;
+
+}
+
+
+.text{
+    padding-top: 50px;
+}
+
+.text h1{
+    font-weight: 500;
+}
+
+    .text p{
+    color: #040404;
+    font-size: 2ch;
+    }
+
+.plate {
+    text-align: center;
+}
+
+.kit {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.kit1 {
+    font-size: 20px;
+}
+
+.wap {
+    text-decoration: none;
+    
+}
+
+li {
+    list-style: none;
+
+}
+
+/* form2 */
+
+
+.Firstname{
+    padding: 9px 40px;
+    border: none;
+}
+.Lastname{
+    padding: 9px 45px;
+    border: none;
+
+
+}
+.Email1{
+    width: 510px;
+    height: 30px;
+    border: none;
+
+}
+
+.Password1{
+    width: 510px;
+    height: 30px;
+    border: none;
+
+}
+.Password2{
+    width: 510px;
+    height: 30px;
+    border: none;
+
+}
+
+.month{
+    padding: 5px;
+}
+
+.day{
+    padding: 5px;
+}
+.year{
+    padding: 5px;
+}
+
+.placeholder, .Email1{
+    padding-left: 8px;
+}
+.placeholder, .Password1{
+    padding-left: 8px;
+}
+.placeholder, .Password2{
+    padding-left: 8px;
+}
+
+.dir p{
+    font-size: 15px;
+}
+
+.signup{
+    padding: 10px 60px;
+    background: #026929;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+} 
+.signup:hover{
+    background: #1f8245;
+    
+} 
+/* move */
+
+.text_image img{
+    width: 250px;
+    height: 90px;
+}
+
+
+    .textf {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .text_text{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    text-align: center;
+    align-items: center;
+
+    }
+
+    .LEFont{
+        color: #fff;
+    }
+
+    .LPFont{
+        color: #fff;
+    }
+
+/* ht */
+
+.ht{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+/* meida query */
+
+@media (max-width:866px){
+    .logo_section{
+    display: flex;
+    flex-direction: column;
+
+    }
+
+
+
+.textf {
+    flex-direction: column;
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    .navbar{
+        width: 100%;
+        height: 150px;
+        
+    }
+
+}
+
+@media (max-width:475px){
+    .ht{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    
+    }
+
+    .navbar{
+        width: 100%;
+        height: 250px;
+        
+    }
+
+    .textf {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    
+        }
+       
+        .LEmail{
+            color: #1f8245;
+        }
+    .LEFont{
+        margin-left: -60px;
+        
+       
+    }
+
+    .LPFont{
+        margin-left: -100px;
+    }
+    
+    .ht{
+        gap: 3px;
+    }
+
+}
+
+
+
+
+
+
+@media (max-width:425px){
+   
+    .Lform{
+        left: 150px;
+     }
+     .PicFb{
+        width: 190px;
+        height: 63px;
+        position: absolute;
+        left: 3%;
+        padding-top: 50px;
+    
+    }
+    .df{
+        flex-direction: column;
+        
+    }
+    
+   
+ }
+
+
+ @media (max-width:768px){
+  
+  .text{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-left: -10rem;
+  } 
+  
+  .form1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .text h1{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .text p{
+    font-size: 15px;
+    
+  }
+
+  
+
+ }
+ @media (max-width:740px){
+
+    .Firstname{
+        width: 75px;
+        height: 10px;
+    }
+    
+    .Lastname{
+        width: 75px;
+        height: 10px;
+    
+    }
+
+    .Email1{
+        width: 250px;
+        height: 30px;
+    
+    }
+    
+    .Password1{
+        width: 250px;
+        height: 30px;
+    
+    }
+    .Password2{
+        width: 250px;
+        height: 30px;
+    
+    }
+
+    .placeholder, .Firstname{
+        padding-left: 8px;
+    }
+    .placeholder, .Lastname{
+        padding-left: 8px;
+    }
+    .placeholder, .Password2{
+        padding-left: 8px;
+    }
+
+    .dir p{
+        font-size: 12px;
+    }
+
+
+ }
+
+
+
+ @media (max-width:992px){
+  
+    .navbar{
+        width: 100%;
+      
+        
+    }
+
+    
+ } 
+
+ @media (max-width:1100px){
+    .plate img{
+        display: none;    
+    }
+    .plate img{
+        display: none;    
+     }
+     .kit {
+        display: none;
+     }
+     .wap {
+        display: none;
+     }
+
+
+ }
+
+ @media (min-width:500px) and (max-width:739px){
+
+    .Firstname{
+        width: 170px;
+        height: 10px;
+    }
+    
+    .Lastname{
+        width: 170px;
+        height: 10px;
+    
+    }
+
+    .Email1{
+        width: 440px;
+        height: 30px;
+    
+    }
+    
+    .Password1{
+        width: 440px;
+        height: 30px;
+    
+    }
+    .Password2{
+        width: 440px;
+        height: 30px;
+    
+    }
+
+
+
+ }
+
+
